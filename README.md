@@ -1,6 +1,16 @@
-<h1 align="center">Install Dart on Solus OS</h1>
+<h1 align="center">Install Dart on Solus OS </h1> 
 
-### Hello!
+
+### Hello! ✌
+<table align="center" style="border:none;">
+  <tr>
+    <th><img height="200" src="https://github.com/iuryferreira/dart-solus-os/blob/master/dart-logo-for-shares.png"></th>
+    <th><h1>+</h1></th>
+    <th><img height="100" src="https://github.com/iuryferreira/dart-solus-os/blob/master/Solus_Logo.png"></th>
+  </tr>
+ </table>
+
+
 
 The Dart SDK has the libraries and command-line tools that you need to develop Dart web, command-line, and server apps. If you’re developing only mobile apps, then you don’t need the Dart SDK; just install Flutter.
 
