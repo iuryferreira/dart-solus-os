@@ -1,6 +1,7 @@
-echo '******************************'
-echo 'Installing Dart...'
+echo '********************************'
+echo 'DART INSTALLER FOR LINUX SYSTEMS'
 echo $'------------------------------\n'
+
 sh dependencies.sh
 echo "Enter the version number you want to download (ex: 2.7.1): "
 read version
@@ -22,6 +23,8 @@ if [ ${SYSTEM} == 'x86_64' ]; then
             exit
         fi
     fi
+
+    cd /tmp
 
     WGET=$(
         wget https://storage.googleapis.com/dart-archive/channels/stable/release/$version/sdk/dartsdk-linux-x64-release.zip --continue --show-progress
