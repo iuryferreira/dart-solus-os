@@ -1,4 +1,4 @@
-sudo unzip dartsdk-linux-x64-release.zip -d /usr/lib
+sudo unzip /tmp/dartsdk-linux-x64-release.zip -d /usr/lib
 sudo chown -R $(whoami) /usr/lib/dart-sdk
 echo 'export PATH="$PATH:/usr/lib/dart-sdk/bin"' >> $HOME/.bashrc
 echo "---------------------------------------------------------"
